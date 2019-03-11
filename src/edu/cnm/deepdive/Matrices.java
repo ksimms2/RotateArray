@@ -6,7 +6,7 @@ public class Matrices {
 
 
 
-  private static int[][] rotate(int[][] data) {
+  public static int[][] rotate(int[][] data) {
 
     int[][] rotatedMatrix = new int[data.length][data[0].length];
 
@@ -32,7 +32,7 @@ public class Matrices {
   }
       static int N = 4;
 
-  private static int[][] rotateInPlace(int[][] data) {
+  public static int[][] rotateInPlace(int[][] data) {
     for (int i = 0; i < N / 2; i++)
     {
       for (int j = i; j < N - i - 1; j++)

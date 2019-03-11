@@ -11,7 +11,6 @@ class MatricesTest {
   }
 
   @Test
-  void rotateInPlace(){
-
+  void rotateInPlace() {
   }
 }
